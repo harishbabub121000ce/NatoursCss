@@ -1,0 +1,14 @@
+/** Simple resetting using universal selector. resets the default properties specified  ***/
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+}
+
+/** box-sizing : border-box; will help width property to point
+                    to rendered width rather than content-width**/
+html {
+    font-size: 62.5%;
+}
+body {
+    box-sizing: border-box;
+}

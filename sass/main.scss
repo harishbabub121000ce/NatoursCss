@@ -1,0 +1,28 @@
+/*
+COLORS:
+
+Light green: #7ed56f
+Medium green: #55c57a
+Dark green: #28b485
+
+*/
+
+// important base partials first
+@import "base/base";
+@import "base/animations";
+@import "base/typography";
+@import "base/utilities";
+
+
+// importing abstracts folder second
+@import "abstracts/variables";
+@import "abstracts/functions";
+@import "abstracts/mixins";
+
+
+// importing components folder third
+
+@import "components/button";
+@import "components/layouts/header";
+@import "components/layouts/pages/home";
+
